@@ -1,12 +1,14 @@
 'use client';
+
 import React, { useState, useEffect, useRef } from 'react';
+import { Menu, X } from 'lucide-react';
 
 const navItems = ['about', 'projects', 'experiences', 'contact'];
 
 export default function Header() {
   const [active, setActive] = useState('about');
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navRefs = useRef<Record<string, HTMLAnchorElement | null>>({});
-
   const [selectorStyle, setSelectorStyle] = useState({ left: 0, width: 0 });
 
   useEffect(() => {
@@ -23,14 +25,14 @@ export default function Header() {
   }, [active]);
 
   return (
-    <header className="absolute top-[30px] left-[72px] right-[72px] h-[36px] flex items-center justify-between">
+    <header className="absolute top-[30px] left-[72px] right-[72px] flex items-center justify-between z-50">
       {/* Name */}
       <h1 className="font-poppins font-semibold text-[24px] leading-[36px] tracking-[-0.05em] text-[#03045E]">
         Yuliya Buturlia
       </h1>
 
-      {/* Navigation */}
-      <nav className="relative flex items-center gap-[50px] font-poppins font-semibold text-[18px] leading-[27px] text-black">
+      {/* Desktop Navigation */}
+      <nav className="relative hidden md:flex items-center gap-[50px] font-poppins font-semibold text-[18px] leading-[27px] text-black">
         <div
           className="absolute bg-[#83BCFF]/40 h-[12px] transition-all duration-300 -z-10"
           style={{
@@ -53,7 +55,36 @@ export default function Header() {
           </a>
         ))}
       </nav>
+
+      {/* Mobile Menu Toggle */}
+      <div className="md:hidden">
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle menu"
+          className="text-[#03045E]"
+        >
+          {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
+      </div>
+
+      {/* Mobile Dropdown Menu */}
+      {mobileMenuOpen && (
+        <div className="absolute top-[60px] right-[0] bg-[#FCFCF1] border border-[#03045E] rounded-md shadow-lg p-4 flex flex-col gap-4 md:hidden font-poppins font-semibold text-[18px]">
+          {navItems.map((item) => (
+            <a
+              key={item}
+              href={`#${item}`}
+              onClick={() => {
+                setActive(item);
+                setMobileMenuOpen(false);
+              }}
+              className="text-[#03045E]"
+            >
+              {item === 'fun' ? 'for fun!' : item}
+            </a>
+          ))}
+        </div>
+      )}
     </header>
   );
 }
-
