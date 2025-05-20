@@ -7,7 +7,7 @@ import confetti from 'canvas-confetti';
 import linkedinIcon from '../public/linkedin.png';
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_ID || '');
+    const [state, handleSubmit] = useForm('xgvkqnel');
 
   useEffect(() => {
     if (state.succeeded) {
