@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect, useRef } from 'react';
 
-const navItems = ['about', 'projects', 'experiences', 'fun', 'contact'];
+const navItems = ['about', 'projects', 'experiences', 'contact'];
 
 export default function Header() {
   const [active, setActive] = useState('about');
