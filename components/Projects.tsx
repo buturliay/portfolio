@@ -75,12 +75,12 @@ const Projects = () => {
               An informative website for Northeastern Women In Pre-Law
             </p>
             <div className="flex flex-wrap gap-[10px]">
-              {techBadge('HTML')}
-              {techBadge('CSS')}
-              {techBadge('JavaScript')}
+              {techBadge('Next.js')}
+              {techBadge('Tailwind CSS')}
+              {techBadge('Google API')}
             </div>
             <div className="w-full">
-              <a href="https://northeasternwomeninprelaw.github.io/" target="_blank" rel="noopener noreferrer">
+              <a href="https://neuwipl.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button className="px-4 py-2 border border-black text-sm font-inter rounded-sm transition-colors hover:bg-[#03045E] hover:text-white">
                   see website →
                 </button>
