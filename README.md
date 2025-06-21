@@ -5,3 +5,5 @@ Includes an about, projects, experiences, and contact section
 Future steps:
 - fun facts/hobbies
 - add more project cards
+
+See @ https://www.yuliyabuturlia.dev/
