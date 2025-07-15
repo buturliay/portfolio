@@ -41,7 +41,7 @@ const Experiences = () => {
               Teaching Assistant – Northeastern University
             </h3>
             <p className="text-[18px] leading-[27px] text-black font-poppins">
-              Facilitated office hours and graded work for 500+ students
+              Facilitate office hours and graded work for 500+ students
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
               Fall 2025: CS 3100
