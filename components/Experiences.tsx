@@ -8,23 +8,8 @@ const Experiences = () => {
           experiences
         </h2>
 
-        
-
         <div className="flex flex-col gap-12">
           {/* Experience 1 */}
-          <div className="flex flex-col gap-1">
-            <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
-              Software Implementation Intern
-            </h3>
-            <p className="text-[18px] leading-[27px] text-black font-poppins">
-              
-            </p>
-            <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              June 2025 - Present
-            </p>
-          </div>
-
-          {/* Experience 2 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Research Assistant – Queen’s University Belfast
@@ -33,11 +18,11 @@ const Experiences = () => {
               Operate motion tracking technology to assist in the execution of balance and mobility experiments
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              January 2025 - June 2025
+              January 2025 - Present
             </p>
           </div>
 
-          {/* Experience 3 */}
+          {/* Experience 2 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Teaching Assistant for Fundamentals of Computer Science – Northeastern University
@@ -50,7 +35,7 @@ const Experiences = () => {
             </p>
           </div>
 
-          {/* Experience 4 */}
+          {/* Experience 3 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Husky Ambassador – Northeastern University
