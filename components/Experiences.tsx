@@ -7,8 +7,21 @@ const Experiences = () => {
         <h2 className="text-[32px] leading-[48px] tracking-[-0.05em] font-semibold text-[#03045E] font-poppins mb-12">
           experiences
         </h2>
-
+        
         <div className="flex flex-col gap-12">
+          {/* Experience 1 */}
+            <div className="flex flex-col gap-1">
+            <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
+              Software Implementation Intern – Tyler Technologies
+            </h3>
+            <p className="text-[18px] leading-[27px] text-black font-poppins">
+              Utilize SQL to improve property and recording report systems
+            </p>
+            <p className="text-[16px] leading-[19px] text-black font-inter font-light">
+              June 2025 - Present
+            </p>
+          </div>
+          
           {/* Experience 1 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
@@ -18,20 +31,23 @@ const Experiences = () => {
               Operate motion tracking technology to assist in the execution of balance and mobility experiments
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              January 2025 - Present
+              January 2025 - June 2025
             </p>
           </div>
 
           {/* Experience 2 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
-              Teaching Assistant for Fundamentals of Computer Science – Northeastern University
+              Teaching Assistant – Northeastern University
             </h3>
             <p className="text-[18px] leading-[27px] text-black font-poppins">
               Facilitated office hours and graded work for 500+ students
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              Summer and Fall semesters 2024
+              Fall 2025: CS 3100
+            </p>
+            <p className="text-[16px] leading-[19px] text-black font-inter font-light">
+              Summer and Fall 2024: CS 2500
             </p>
           </div>
 

@@ -51,21 +51,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Card 2 - Stock Explorer */}
-          <div className="w-[329px] bg-white border border-[#03045E] shadow-md rounded-sm p-4 flex flex-col gap-[29px] transition-transform hover:scale-[1.02]">
-            <h3 className="text-[24px] font-bold leading-[36px] tracking-[0.01em] font-poppins">
-              Stock Explorer
-            </h3>
-            <p className="text-[18px] leading-[22px] font-inter text-black">
-              Leveraged an API to create an interactive model of stock portfolio. In line with the MVC model and equipped with a complete GUI, this educational tool is capable of various calculations such as moving averages and stock trading simulation
-            </p>
-            <div className="flex flex-wrap gap-[10px]">
-              {techBadge('Java')}
-              {techBadge('Object Oriented Design')}
-              {techBadge('MVC Architecture')}
-            </div>
-          </div>
-
           {/* Card 3 - Women in Pre-Law Website */}
           <div className="w-[329px] bg-white border border-[#03045E] shadow-md rounded-sm p-4 flex flex-col gap-[29px] transition-transform hover:scale-[1.02]">
             <h3 className="text-[24px] font-bold leading-[36px] tracking-[0.01em] font-poppins">
@@ -87,6 +72,22 @@ const Projects = () => {
               </a>
             </div>
           </div>
+
+                    {/* Card 3 - Stock Explorer */}
+                    <div className="w-[329px] bg-white border border-[#03045E] shadow-md rounded-sm p-4 flex flex-col gap-[29px] transition-transform hover:scale-[1.02]">
+            <h3 className="text-[24px] font-bold leading-[36px] tracking-[0.01em] font-poppins">
+              Stock Explorer
+            </h3>
+            <p className="text-[18px] leading-[22px] font-inter text-black">
+              Leveraged an API to create an interactive model of stock portfolio. In line with the MVC model and equipped with a complete GUI, this educational tool is capable of various calculations such as moving averages and stock trading simulation
+            </p>
+            <div className="flex flex-wrap gap-[10px]">
+              {techBadge('Java')}
+              {techBadge('Object Oriented Design')}
+              {techBadge('MVC Architecture')}
+            </div>
+          </div>
+          
                   {/* Decorative Crosses updated to hug bottom-left of section and top-right of section */}
         <CrossLines className="absolute left-0 bottom-0 -translate-x-[50%] translate-y-[50%] rotate-180" />
         <CrossLines className="absolute right-0 top-15 translate-x-[50%] -translate-y-[50%]" />
