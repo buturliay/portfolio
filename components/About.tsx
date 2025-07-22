@@ -10,7 +10,7 @@ export default function About() {
             hi!
           </h2>
           <p className="font-poppins text-black text-[18px] leading-[30px] mb-6">
-            My name is Yuliya, and I am a second year computer science major at Northeastern University with a concentration in AI and a minor in linguistics.
+            My name is Yuliya, and I am a third year computer science major at Northeastern University with a concentration in AI and a minor in linguistics.
           </p>
           <p className="font-poppins text-black text-[18px] leading-[30px]">
             I am fascinated by applications of AI in data analysis and software development, as well as the intersection of linguistics and computer science.
