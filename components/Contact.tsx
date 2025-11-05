@@ -73,7 +73,7 @@ const Contact = () => {
           <h2 className="text-[32px] leading-[48px] tracking-[-0.05em] font-semibold text-[#03045E] font-poppins mb-4">
             connect
           </h2>
-          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/yuliya-buturlia/" target="_blank" rel="noopener noreferrer">
             <Image
               src={linkedinIcon}
               alt="LinkedIn logo"
