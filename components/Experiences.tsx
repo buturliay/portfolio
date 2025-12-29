@@ -60,7 +60,7 @@ const Experiences = () => {
             </p>
           </div>
 
-          {/* Experience 5 */}
+          {/* Experience 5  */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Husky Ambassador – Northeastern University
