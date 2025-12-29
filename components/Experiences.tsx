@@ -10,6 +10,18 @@ const Experiences = () => {
         
         <div className="flex flex-col gap-12">
           {/* Experience 1 */}
+          <div className="flex flex-col gap-1">
+            <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
+              Incoming Software Engineer Co-op – Nara Logics
+            </h3>
+            <p className="text-[18px] leading-[27px] text-black font-poppins">
+            </p>
+            <p className="text-[16px] leading-[19px] text-black font-inter font-light">
+              January 2025
+            </p>
+          </div>
+
+          {/* Experience 2 */}
             <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Software Implementation Intern – Tyler Technologies
@@ -18,11 +30,11 @@ const Experiences = () => {
               Utilize SQL to improve property and recording report systems
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              June 2025 - Present
+              June 2025 - November 2025
             </p>
           </div>
           
-          {/* Experience 1 */}
+          {/* Experience 3 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Research Assistant – Queen’s University Belfast
@@ -35,23 +47,20 @@ const Experiences = () => {
             </p>
           </div>
 
-          {/* Experience 2 */}
+          {/* Experience 4 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
-              Teaching Assistant – Northeastern University
+              CS 2500 Teaching Assistant – Northeastern University
             </h3>
             <p className="text-[18px] leading-[27px] text-black font-poppins">
               Facilitate office hours and graded work for 500+ students
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              Fall 2025: CS 3100
-            </p>
-            <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              Summer and Fall 2024: CS 2500
+              Summer and Fall Semesters 2024
             </p>
           </div>
 
-          {/* Experience 3 */}
+          {/* Experience 5 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
               Husky Ambassador – Northeastern University
