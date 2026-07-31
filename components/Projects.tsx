@@ -29,7 +29,30 @@ const Projects = () => {
         </h2>
 
         <div className="flex flex-wrap pb-10 justify-center gap-[30px]">
-          {/* Card 1 - Connections Solver */}
+          {/* Card 1 - Time Encoding in LLMs Research */}
+          <div className="w-[329px] bg-white border border-[#03045E] shadow-md rounded-sm p-4 flex flex-col gap-[29px] transition-transform hover:scale-[1.02]">
+            <h3 className="text-[24px] font-bold leading-[36px] tracking-[0.01em] font-poppins">
+              Time Encoding in LLMs Research
+            </h3>
+            <p className="text-[18px] leading-[22px] font-inter text-black">
+              Investigating whether English-centric training data used in LLMs shapes how they represent time in other languages by evaluating models using English and Russian temporal reasoning prompts. 
+              
+              Presented at Northeastern University’s RISE Expo 2026.
+            </p>
+            <div className="flex flex-wrap gap-[10px]">
+              {techBadge('Python')}
+              {techBadge('PyTorch')}
+            </div>
+            <div className="w-full">
+              <a href="./RISE_Poster_YB2026.pdf" target="_blank" rel="noopener noreferrer">
+                <button className="px-4 py-2 border border-black text-sm font-inter rounded-sm transition-colors hover:bg-[#03045E] hover:text-white">
+                  see research →
+                </button>
+              </a>
+            </div>
+          </div>
+
+          {/* Card 2 - Connections Solver */}
           <div className="w-[329px] bg-white border border-[#03045E] shadow-md rounded-sm p-4 flex flex-col gap-[29px] transition-transform hover:scale-[1.02]">
             <h3 className="text-[24px] font-bold leading-[36px] tracking-[0.01em] font-poppins">
               Connections Solver
@@ -70,21 +93,6 @@ const Projects = () => {
                   see website →
                 </button>
               </a>
-            </div>
-          </div>
-
-                    {/* Card 3 - Stock Explorer */}
-                    <div className="w-[329px] bg-white border border-[#03045E] shadow-md rounded-sm p-4 flex flex-col gap-[29px] transition-transform hover:scale-[1.02]">
-            <h3 className="text-[24px] font-bold leading-[36px] tracking-[0.01em] font-poppins">
-              Stock Explorer
-            </h3>
-            <p className="text-[18px] leading-[22px] font-inter text-black">
-              Leveraged an API to create an interactive model of stock portfolio. In line with the MVC model and equipped with a complete GUI, this educational tool is capable of various calculations such as moving averages and stock trading simulation
-            </p>
-            <div className="flex flex-wrap gap-[10px]">
-              {techBadge('Java')}
-              {techBadge('Object Oriented Design')}
-              {techBadge('MVC Architecture')}
             </div>
           </div>
           

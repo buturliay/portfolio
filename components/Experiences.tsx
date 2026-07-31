@@ -12,12 +12,13 @@ const Experiences = () => {
           {/* Experience 1 */}
           <div className="flex flex-col gap-1">
             <h3 className="text-[22px] leading-[36px] font-semibold text-black font-poppins">
-              Incoming Software Engineer Co-op – Nara Logics
+              Software Engineer Co-op – OMNI Federal
             </h3>
             <p className="text-[18px] leading-[27px] text-black font-poppins">
+              Built a new frontend component for interaction with Nara's AI decision-making model
             </p>
             <p className="text-[16px] leading-[19px] text-black font-inter font-light">
-              January 2025
+              January 2026 - June 2026
             </p>
           </div>
 
